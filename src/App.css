@@ -1,0 +1,135 @@
+* {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+}
+
+.Logo {
+  width: 12.5vw;
+  align-self: center;
+  margin: 20px 0;
+}
+
+button img {
+  width: 42px;
+  margin: 0;
+  align-self: flex-start;
+}
+
+.SideBar {
+  width: 18vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.Static-SideBtn {
+  width: 14vw;
+  height: fit-content;
+  color: #fff;
+  padding: 5px 10px;  
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #3a57e8;
+  overflow: hidden;
+  border: 2px solid #3a57e8;
+  gap: 20px;
+}
+
+.Sliding-SideBtn {
+  width: 14vw;
+  height: fit-content;
+  color: #fff;
+  padding: 5px 10px;  
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #3a57e8;
+  color: #3a57e8;
+  gap: 20px;
+}
+
+.Sliding-SideBtn:hover {
+  color: #fff;
+}
+
+.Sliding-SideBtn:hover:after {
+  width: 100%;
+}
+
+.Sliding-SideBtn:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #3a57e8;
+}
+
+.FloatingWindow {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 60vw;
+  height: fit-content;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.FloatingWindow h2 {
+  padding-top: 20px;
+  width: fit-content;
+  margin: 0 auto;
+  text-decoration-line: underline;
+}
+
+.FloatingWindow h2 {
+  color: #3a57e8 !important;
+}
+
+.FloatingWindow.slide-in {
+  display: block !important;
+  animation: slideIn 0.5s forwards;
+}
+
+.FloatingWindow input {
+  width: 20vw;
+  height: 30px;
+}
+
+.FloatingWindow::-webkit-scrollbar {
+  display: none;
+}
+
+.floating-windows {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
