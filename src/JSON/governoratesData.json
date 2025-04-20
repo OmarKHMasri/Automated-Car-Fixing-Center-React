@@ -1,0 +1,60 @@
+{
+    "governorates": [
+      {
+        "value": "damascus",
+        "label": "Damascus"
+      },
+      {
+        "value": "rif-dimashq",
+        "label": "Rif Dimashq"
+      },
+      {
+        "value": "aleppo",
+        "label": "Aleppo"
+      },
+      {
+        "value": "homs",
+        "label": "Homs"
+      },
+      {
+        "value": "hama",
+        "label": "Hama"
+      },
+      {
+        "value": "latakia",
+        "label": "Latakia"
+      },
+      {
+        "value": "tartus",
+        "label": "Tartus"
+      },
+      {
+        "value": "idlib",
+        "label": "Idlib"
+      },
+      {
+        "value": "al-hasakah",
+        "label": "Al-Hasakah"
+      },
+      {
+        "value": "raqqa",
+        "label": "Raqqa"
+      },
+      {
+        "value": "deir-ez-zor",
+        "label": "Deir ez-Zor"
+      },
+      {
+        "value": "daraa",
+        "label": "Daraa"
+      },
+      {
+        "value": "as-suwayda",
+        "label": "As-Suwayda"
+      },
+      {
+        "value": "quneitra",
+        "label": "Quneitra"
+      }
+    ]
+  }

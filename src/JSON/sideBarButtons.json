@@ -1,0 +1,52 @@
+{
+    "buttons": [
+      {
+        "id": 1,
+        "normal": "../src/images/dashboard.png",
+        "hovered": "../src/images/dashboard-w.png",
+        "text": "Dashboard",
+        "className": "Sliding-SideBtn",
+        "onClick": "hanldeBtnClick(1)"
+      },
+      {
+        "id": 2,
+        "normal": "../src/images/start-service.png",
+        "hovered": "../src/images/start-service-w.png",
+        "text": "Add Car",
+        "className": "Sliding-SideBtn",
+        "onClick": "hanldeBtnClick(2)"
+      },
+      {
+        "id": 3,
+        "normal": "../src/images/Check-car.png",
+        "hovered": "../src/images/Check-car-w.png",
+        "text": "Car Status",
+        "className": "Sliding-SideBtn",
+        "onClick": "hanldeBtnClick(3)"
+      },
+      {
+        "id": 4,
+        "normal": "../src/images/car-info.png",
+        "hovered": "../src/images/car-info-w.png",
+        "text": "Car List",
+        "className": "Sliding-SideBtn",
+        "onClick": "hanldeBtnClick(4)"
+      },
+      {
+        "id": 5,
+        "normal": "../src/images/worker.png",
+        "hovered": "../src/images/worker.png",
+        "text": "Workers",
+        "className": "Static-SideBtn",
+        "onClick": "hanldeBtnClick(5)"
+      },
+      {
+        "id": 6,
+        "normal": "../src/images/user.png",
+        "hovered": "../src/images/user.png",
+        "text": "Users",
+        "className": "Static-SideBtn",
+        "onClick": "hanldeBtnClick(6)"
+      }
+    ]
+  }

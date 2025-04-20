@@ -1,8 +1,7 @@
 import { useState } from "react"
 export default function Button(props) {
     const [isHoverd, setIsHoverd] = useState(false)
-    // const BtnId= props.id
-
+    
     return (
         <button
             className={props.className}
